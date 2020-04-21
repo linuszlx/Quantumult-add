@@ -1,0 +1,4 @@
+hostname =
+# F
+# > 飞客茶馆
+^http://ptf.flyertea.com/common/cf/ url reject-200
