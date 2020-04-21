@@ -1,4 +1,11 @@
-hostname =
 # F
 # > 飞客茶馆
 ^http://ptf.flyertea.com/common/cf/ url reject-200
+# S
+# > 苏宁
+^http://image.suning.cn/uimg/MPCS/QRCODELOGO/  url reject-200
+^http://image1.suning.cn/uimg/MPCS/QRCODELOGO/  url reject-200
+^http://image2.suning.cn/uimg/MPCS/QRCODELOGO/  url reject-200
+^http://image3.suning.cn/uimg/MPCS/QRCODELOGO/  url reject-200
+^http://image4.suning.cn/uimg/MPCS/QRCODELOGO/  url reject-200
+^http://image5.suning.cn/uimg/MPCS/QRCODELOGO/  url reject-200
