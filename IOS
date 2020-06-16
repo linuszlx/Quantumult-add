@@ -1,0 +1,5 @@
+hostname =
+
+^http://mesu.apple.com url reject-200
+^http://gdmf.apple.com url reject-200
+^http://updates-http.cdn-apple.com url reject-200
