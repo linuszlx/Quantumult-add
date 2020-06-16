@@ -1,0 +1,7 @@
+# Advertising 广告
+# > General
+DOMAIN-KEYWORD,adservice,REJECT
+
+DOMAIN-SUFFIX,mesu.apple.com,REJECT
+DOMAIN-SUFFIX,gdmf.apple.com,REJECT
+DOMAIN-SUFFIX,updates-http.cdn-apple.com,REJECT
