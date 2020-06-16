@@ -1,7 +1,11 @@
-# Advertising 广告
+# Stop ios
 # > General
 DOMAIN-KEYWORD,adservice,REJECT
 
 DOMAIN-SUFFIX,mesu.apple.com,REJECT
 DOMAIN-SUFFIX,gdmf.apple.com,REJECT
 DOMAIN-SUFFIX,updates-http.cdn-apple.com,REJECT
+DOMAIN-SUFFIX,ipsw.me,REJECT
+DOMAIN-SUFFIX,xp.apple.com,REJECT
+DOMAIN-SUFFIX,swscan.apple.com,REJECT
+DOMAIN-SUFFIX,appldnld.apple.com,REJECT
