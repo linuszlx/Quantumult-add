@@ -87,6 +87,7 @@ body['data']['bottom'] = [
         "icon_selected" : "http:\/\/i0.hdslb.com\/bfs\/archive\/36e080bbd8ae858af664ef251741124e04241942.png",
         "icon" : "http:\/\/i0.hdslb.com\/bfs\/archive\/aafe71f10eeb5086ac119e4dad769c5aad4d86a2.png",
         "name" : "我的"
+          }
 ]
 
 body = JSON.stringify(body)
