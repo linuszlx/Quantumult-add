@@ -1,7 +1,6 @@
 # Advertising
 # > General
 DOMAIN-KEYWORD,adservice,REJECT
-
 DOMAIN-SUFFIX,1phads.com,REJECT
 DOMAIN-SUFFIX,1rtb.com,REJECT
 DOMAIN-SUFFIX,1xl.co.uk,REJECT
@@ -346,14 +345,6 @@ DOMAIN,galaxy.bjcathay.com,REJECT
 DOMAIN,mdrecv.app.cntvwb.cn,REJECT
 DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
 DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
-# > ChinaTelecom
-DOMAIN,ad.21cn.com,REJECT
-DOMAIN,ad.k.21cn.com,REJECT
-DOMAIN,admarket.21cn.com,REJECT
-DOMAIN,adshows.21cn.com,REJECT
-# > Chelaile
-DOMAIN,atrace.chelaile.net.cn,REJECT
-DOMAIN,logs.chelaile.net.cn,REJECT
 # > Camera360
 DOMAIN,dispatcher.360in.com,REJECT
 DOMAIN,ad.360in.com,REJECT
@@ -404,17 +395,6 @@ DOMAIN,ark.letv.com,REJECT
 DOMAIN,emma-414870e223.huodonghezi.com,REJECT
 DOMAIN,g3.letv.com,REJECT
 DOMAIN,n.mark.letv.com,REJECT
-# > LinkWiFi
-DOMAIN,a.wkanx.com,REJECT
-DOMAIN,cwx.lianwangtech.com,REJECT
-DOMAIN,c1wx.lianwangtech.com,REJECT
-
-# (M)
-# > MojiWeather
-DOMAIN,ad.api.moji.com,REJECT
-DOMAIN,adlaunch.moji.com,REJECT
-DOMAIN,ads.mojicdn.com,REJECT
-DOMAIN,v1.log.moji.com,REJECT
 
 # (N)
 # > NetEase
@@ -444,9 +424,6 @@ DOMAIN,de.as.pptv.com,REJECT
 # > Photoable
 DOMAIN,regist.fotoable.com,REJECT
 DOMAIN,cdn.adapi.fotoable.com,REJECT
-# > PeanutWiFi
-DOMAIN,adnew.wifi8.com,REJECT
-DOMAIN,adfile.wifi8.com,REJECT
 # > PConline
 DOMAIN,ad-analysis.pconline.com.cn,REJECT
 DOMAIN,iad0ssl.pcauto.com.cn,REJECT
@@ -508,17 +485,10 @@ DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
-# ------
-# > TongHuaShun
-DOMAIN,adm.10jqka.com.cn,REJECT
-DOMAIN,stat.10jqka.com.cn,REJECT
 # > The Paper
 DOMAIN,admonitor.thepaper.cn,REJECT
 DOMAIN,adpai.thepaper.cn,REJECT
 DOMAIN,imgadpai.thepaper.cn,REJECT
-# > Thunder
-DOMAIN,adsp.xunlei.com,REJECT
-DOMAIN,etl.xlmc.sandai.net,REJECT
 
 # (V)
 # > VariFlight
@@ -539,29 +509,3 @@ DOMAIN,adsebs.ximalaya.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,t-ads.xiaohongshu.com,REJECT
-
-# (Y)
-# > Yahoo
-DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
-DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
-DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
-DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
-DOMAIN,admarketing.yahoo.net,REJECT
-DOMAIN,ads.auctions.yahoo.com,REJECT
-DOMAIN,ads.finance.yahoo.com,REJECT
-DOMAIN,ads.yahoo.com,REJECT
-DOMAIN,ads.yahoo.de,REJECT
-
-# (Z)
-# > Zhihu
-DOMAIN,118.89.204.198,REJECT
-DOMAIN-SUFFIX,118.89.204.198,REJECT
-DOMAIN-KEYWORD,118.89.204.198,REJECT
-IP-CIDR,118.89.204.198/32,REJECT
-DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
-USER-AGENT,AVOS*,REJECT
-DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
-# > ZOL
-DOMAIN,apppv.zol.com.cn,REJECT
-DOMAIN,pvnapp.zol.com.cn,REJECT
