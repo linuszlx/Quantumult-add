@@ -30,5 +30,5 @@ obj.images = [
       }
     ]
   ];
-body = JSON.stringfy(obj);
-$done({ body });
+body = JSON.stringify(obj);
+$done({body});
