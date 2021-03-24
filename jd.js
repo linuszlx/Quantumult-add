@@ -13,7 +13,7 @@ obj.images = [
         "sourceValueJson" : "",
         "tag" : 0,
         "jump" : {
-          "srv" : ,
+          "srv" : "",
           "shareInfo" : {
             "avatar" : ""
           },
