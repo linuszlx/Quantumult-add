@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.access.profile = {
+obj.profile = {
     "is_member" : true,
     "is_premium" : true,
     "nickname" : "linusZ",
