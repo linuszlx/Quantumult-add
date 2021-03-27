@@ -14,5 +14,4 @@ obj.access.profile = {
     "default_font_size" : "normal",
     "current_period_end" : null
   };
-body = JSON.stringify(obj);
-$done({body});
+$done({body: JSON.stringify(obj)});
