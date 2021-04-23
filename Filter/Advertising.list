@@ -502,6 +502,7 @@ DOMAIN,ad.360in.com,REJECT
 DOMAIN,exp.360in.com,REJECT
 # > CaiXIN
 DOMAIN,showimg.caixin.com,REJECT
+DOMAIN,gg.caixin.com,REJECT
 
 # (G)
 # > Google
