@@ -497,6 +497,7 @@ HOST-SUFFIX,gamecenter.iqiyi.com,Advertising
 HOST-SUFFIX,iqiyi.kim,Advertising
 HOST-SUFFIX,iqiyi.pub,Advertising
 HOST-SUFFIX,iqiyi.space,Advertising
+DOMAIN-SUFFIX,tcqcloudcdnct.inter.iqiyi.com,REJECT
 
 # ------
 # > ByteDance
