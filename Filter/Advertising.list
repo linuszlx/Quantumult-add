@@ -360,11 +360,9 @@ DOMAIN-SUFFIX,zucks.net,REJECT
 DOMAIN-SUFFIX,zumobi.com,REJECT
 DOMAIN-SUFFIX,zwaar.org,REJECT
 DOMAIN-SUFFIX,zxrtb.com,REJECT
-
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
 DOMAIN-SUFFIX,ad.g.daum.net,REJECT
-
 DOMAIN,ads.play.cbsi.video,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
@@ -406,6 +404,8 @@ DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 
 # (0~9)
 # > 51wnl
