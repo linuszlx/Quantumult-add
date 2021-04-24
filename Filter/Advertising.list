@@ -407,6 +407,11 @@ DOMAIN,toots-a.akamaihd.net,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,pangolin.snssdk.com,REJECT
+DOMAIN-SUFFIX,sf1-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,sf14g.com,REJECT
+DOMAIN-SUFFIX,sf3-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,sf6-be-pack.pglstatp-toutiao.com,REJECT
 
 # (0~9)
 # > 51wnl
