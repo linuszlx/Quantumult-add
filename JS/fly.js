@@ -1,5 +1,5 @@
 var body = $response.body;
 var obj = JSON.parse(body);
-delete obj.Variables.bottomadv;
-delete obj.Variables.middleadv;
+delete obj.Variables.data.bottomadv;
+delete obj.Variables.data.middleadv;
 $done({body: JSON.stringify(obj)});
