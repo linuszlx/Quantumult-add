@@ -87,7 +87,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
         try{
           const item0List = new Set(['离线缓存', '历史记录', '我的收藏', '稍后再看']);
           const item1List = new Set(['创作首页', '创作学院', '打卡挑战']);
-          const item2List = new Set(['我的课程', '个性装扮', '我的钱包', '直播中心']);
+          const item2List = new Set(['看视频免流量', '我的钱包', '会员购中心', '直播中心']);
           const item3List = new Set(['联系客服', '设置']);
           let obj = JSON.parse(magicJS.response.body);
           let items0 = obj['data']['sections_v2'][0]['items'].filter((e) =>{return item0List.has(e.title);});
