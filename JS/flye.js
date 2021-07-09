@@ -1,3 +1,3 @@
-var body = $response.body.replace('"adv" : {/w}', '"adv" : {}').
+var body = $response.body.replace(/"adv"/g, "no").
 
 $done({ body });
