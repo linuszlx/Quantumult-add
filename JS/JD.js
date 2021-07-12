@@ -7,16 +7,16 @@ let magicJS = MagicJS(scriptName, 'INFO');
     switch (true){
   case /^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=readCustomSurfaceList/.test(magicJS.request.url):
         try{
-          const darkList = new Set(['首页', '新品', '分类', '购物车', '我的']);
-          const normalList = new Set(['首页', '新品', '分类', '购物车', '我的']);
+          const darkList = new Set(["首页", "新品", "分类", "购物车", "我的"]);
+          const normalList = new Set(["首页", "新品", "分类", "购物车", "我的"]);
           let obj = JSON.parse(magicJS.response.body);
-          if (obj['result']['modeMap']['dark']['navigationAll']){
-            let dark = obj['result']['modeMap']['dark']['navigationAll'].filter((e) =>{return darkList.has(e.name);});
-            obj['result']['modeMap']['dark']['navigationAll'] = dark;
+          if (obj["result"]["modeMap"]["dark"]["navigationAll"]){
+            let dark = obj["result"]["modeMap"]["dark"]["navigationAll"].filter((e) =>{return darkList.has(e.name);});
+            obj["result"]["modeMap"]["dark"]["navigationAll"] = dark;
           }
-          if (obj['result']['modeMap']['normal']['navigationAll']){
-            let normal = obj['result']['modeMap']['normal']['navigationAll'].filter((e) =>{return normalList.has(e.name);});
-            obj['result']['modeMap']['normal']['navigationAll']= normal;
+          if (obj["result"]["modeMap"]["normal"]["navigationAll"]){
+            let normal = obj["result"]["modeMap"]["normal"]["navigationAll"].filter((e) =>{return normalList.has(e.name);});
+            obj["result"]["modeMap"]["normal"]["navigationAll"] = normal;
           }
           body = JSON.stringify(obj);
         }
