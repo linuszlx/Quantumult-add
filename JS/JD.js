@@ -9,7 +9,6 @@ let magicJS = MagicJS(scriptName, 'INFO');
         try{
           const darkList = new Set(['首页', '新品', '分类', '购物车', '我的']);
           const normalList = new Set(['首页', '新品', '分类', '购物车', '我的']);
-          const bottomList = new Set(['首页', '频道', '动态', '我的', '消息']);
           let obj = JSON.parse(magicJS.response.body);
           if (obj['result']['modeMap']['dark']['navigationAll']){
             let dark = obj['result']['modeMap']['dark']['navigationAll'].filter((e) =>{return darkList.has(e.name);});
