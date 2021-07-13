@@ -5,7 +5,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
   let body = null;
   if (magicJS.isResponse){
     switch (true){
-  case /^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=readCustomSurfaceList/.test(magicJS.request.url):
+  case /^https?:\/\/app\.bilibili\.com\/x\/v2\/region\/index\?actionKey=appkey/.test(magicJS.request.url):    
         try{
           const List = new Set(['番剧', '国创', '放映厅', '纪录片', '电影', '电视剧', '课堂', '动画', '音乐', '舞蹈', '游戏', '知识', '科技', '汽车', '生活', '美食', '动物圈', 'VLOG', '鬼畜', '时尚', '娱乐', '新歌热榜', '影视', '全区排行', '游戏赛事', '音频']);
           let obj = JSON.parse(magicJS.response.body);
