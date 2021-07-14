@@ -62,16 +62,6 @@ obj.data = [
       "name" : "电视剧"
     },
     {
-      "logo" : "http:\/\/i0.hdslb.com\/bfs\/archive\/7400e63e28ab9933a3fa8adb3bd63e3a20911641.png",
-      "reid" : 0,
-      "uri" : "https:\/\/m.bilibili.com\/cheese\/home?navhide=1",
-      "goto" : "",
-      "param" : "",
-      "type" : 0,
-      "tid" : 65560,
-      "name" : "课堂"
-    },
-    {
       "logo" : "http:\/\/i0.hdslb.com\/bfs\/archive\/9b3bb8cfc8d87809ffa409bc65def8d8c3eaf72b.png",
       "reid" : 0,
       "uri" : "bilibili:\/\/region\/1",
@@ -170,16 +160,6 @@ obj.data = [
       "type" : 0,
       "tid" : 217,
       "name" : "动物圈"
-    },
-    {
-      "logo" : "http:\/\/i0.hdslb.com\/bfs\/archive\/c794e8220a8cbe3d83b83e76e753c57df67b036a.png",
-      "reid" : 0,
-      "uri" : "https:\/\/www.bilibili.com\/h5\/vlog?from=2",
-      "goto" : "",
-      "param" : "",
-      "type" : 0,
-      "tid" : 65559,
-      "name" : "VLOG"
     },
     {
       "logo" : "http:\/\/i0.hdslb.com\/bfs\/archive\/de50290b11c65108eb70766fa887032b948d2e4b.png",
