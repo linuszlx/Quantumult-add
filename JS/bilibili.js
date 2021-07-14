@@ -5,20 +5,6 @@ let magicJS = MagicJS(scriptName, 'INFO');
   let body = null;
   if (magicJS.isResponse){
     switch (true){
-      // 上栏去广告，
-      case ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\?/.test(magicJS.request.url):
-        try{
-           let obj = JSON.parse(magicJS.response.body);
-          obj['code'] = -404;
-          obj['message'] = "啥都木有";
-          obj['data'] = null;
-                    }
-          body = JSON.stringify(obj);
-        }
-        catch (err){
-          magicJS.logError(`上栏广告处理出现异常：${err}`);
-        }
-        break;
       // 推荐去广告，最后问号不能去掉，以免匹配到story模式
       case /^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\?/.test(magicJS.request.url):
         try{
