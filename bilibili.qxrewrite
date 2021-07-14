@@ -12,6 +12,8 @@ hostname = *.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash url reject-dict
 # 上栏去广告
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\? url script-response-body https://raw.githubusercontent.com/linuszlx/Quantumult-add/master/JS/bili.js
+# 分区优化
+^https?:\/\/app\.bilibili\.com\/x\/v2\/channel\/region\/list\? url script-response-body https://raw.githubusercontent.com/linuszlx/Quantumult-add/master/JS/bilifq.js
 # 推荐去广告
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index url script-response-body https://raw.githubusercontent.com/linuszlx/Quantumult-add/master/JS/bilibili.js
 # 追番去广告
