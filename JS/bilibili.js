@@ -6,7 +6,7 @@ let magicJS = MagicJS(scriptName, 'INFO');
   if (magicJS.isResponse){
     switch (true){
       // 上栏去广告，
-      case ^https?:\/\/app\.bilibili\.com\/resource\/top\/activity\?/.test(magicJS.request.url):
+      case ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\?/.test(magicJS.request.url):
         try{
            let obj = JSON.parse(magicJS.response.body);
           obj['code'] = -404;
